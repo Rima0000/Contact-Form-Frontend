@@ -34,7 +34,7 @@ const App: React.FC = () => {
 
        // await axios.post(`${window.location.origin}/api/v1/post`,Values).then((res) => {
        
-      await axios.post("https://contact-form-backend-zoo0.onrender.comapi/v1/post",Values).then((res) => {
+      await axios.post("https://contact-form-backend-zoo0.onrender.com/api/v1/post",Values).then((res) => {
         alert(res.data.message);
       });
 
