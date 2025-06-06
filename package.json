@@ -4,9 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "start": "vite preview --port $PORT",    "lint": "eslint ."
+      "dev": "vite",
+      "build": "tsc -b && vite build",
+      "start": "vite preview --host --port $PORT",
+      "lint": "eslint ."
   },
 
   
